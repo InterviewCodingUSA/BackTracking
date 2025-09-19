@@ -40,7 +40,6 @@ public class Main {
         for(int i = 0 ; i < current; i ++){
             if(result[i] == num )
                 return  false;
-
         }
         return  true;
 
@@ -48,8 +47,8 @@ public class Main {
 
     static void printCombinations(String str, int[] result){
         char[] arr = str.toCharArray();
-        for(int i = 0 ; i < result.length ; i ++){
-            System.out.print(arr[result[i]] + " ");
+        for (int j : result) {
+            System.out.print(arr[j] + " ");
         }
         System.out.println();
     }
