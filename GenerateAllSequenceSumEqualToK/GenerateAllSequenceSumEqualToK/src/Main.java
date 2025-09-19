@@ -19,7 +19,7 @@ public class Main {
     static  void generateAllSequenceSumEqualToK(int[] arr, int[] result, int current, int k){
 
         if(current == result.length){
-            // print and retuyrnl
+            // print and return
             printSumEqualToK(arr, result, k);
             return;
         }
